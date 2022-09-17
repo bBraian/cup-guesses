@@ -5,4 +5,8 @@ export const days = [
     {id: 4, title: 'qui', day: '10/12'},
     {id: 5, title: 'sex', day: '11/12'},
     {id: 6, title: 'sab', day: '12/12'},
+    {id: 7, title: 'sab', day: '12/12'},
+    {id: 8, title: 'sab', day: '12/12'},
+    {id: 9, title: 'sab', day: '12/12'},
+    {id: 10, title: 'sab', day: '12/12'},
 ]

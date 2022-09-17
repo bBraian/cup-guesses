@@ -1,0 +1,9 @@
+.day-infos {
+    width: 100%;
+    margin: 15px 0 -10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 16px;
+}

@@ -10,7 +10,7 @@
     flex-direction: row;
     margin: 0 25px;
     border-radius: 12px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     padding: 0;
 }
 
@@ -30,12 +30,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.day-separator {
-    width: 1px;
-    height: 45px;
-    background-color: rgb(255, 255, 255);
 }
 
 .day-title {
