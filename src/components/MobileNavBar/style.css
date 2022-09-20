@@ -7,7 +7,7 @@
     bottom: 0;
 }
 
-.nav-bar-selected {
+.active {
     background-color: #7A0745;
 }
 
@@ -17,6 +17,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }
 
 .nav-icon {

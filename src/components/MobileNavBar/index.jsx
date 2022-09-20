@@ -1,25 +1,23 @@
-import { FaHome } from 'react-icons/fa';
-import { FaFutbol } from 'react-icons/fa';
-import { FaHackerrank } from 'react-icons/fa';
-import { FaUserAlt } from 'react-icons/fa';
+import { FaHome, FaFutbol, FaHackerrank, FaUserAlt } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 import './style.css';
 
-export const MobileNavBar = ({selectedScrenn, setSelectedScrenn}) => {
+export const MobileNavBar = () => {
     return (
         <div className='mobile-nav-bar'>
-            <div className={selectedScrenn === 1 ? "mobile-item-nav-bar nav-bar-selected" : "mobile-item-nav-bar"} onClick={() => setSelectedScrenn(1)}>
+            <NavLink to="/home" title="Home" className="mobile-item-nav-bar">
                 <FaHome className='nav-icon' />
                 <div>Home</div>
-            </div>
-            <div className={selectedScrenn === 2 ? "mobile-item-nav-bar nav-bar-selected" : "mobile-item-nav-bar"} onClick={() => setSelectedScrenn(2)}>
+            </NavLink>
+            <NavLink to="/games" title="Jogos" className="mobile-item-nav-bar">
                 <FaFutbol className='nav-icon' />
                 <div>Jogos</div>
-            </div>
-            <div className={selectedScrenn === 3 ? "mobile-item-nav-bar nav-bar-selected" : "mobile-item-nav-bar"} onClick={() => setSelectedScrenn(3)}>
+            </NavLink>
+            <NavLink to="/rank" title="Ranking" className="mobile-item-nav-bar">
                 <FaHackerrank className='nav-icon' />
                 <div>Ranking</div>
-            </div>
-            <div className={selectedScrenn === 4 ? "mobile-item-nav-bar nav-bar-selected" : "mobile-item-nav-bar"} onClick={() => setSelectedScrenn(4)}>
+            </NavLink>
+            <div className="mobile-item-nav-bar">
                 <FaUserAlt className='nav-icon' />
                 <div>Perfil</div>
             </div>
