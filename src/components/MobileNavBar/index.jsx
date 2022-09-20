@@ -9,7 +9,7 @@ export const MobileNavBar = () => {
                 <FaHome className='nav-icon' />
                 <div>Home</div>
             </NavLink>
-            <NavLink to="/games" title="Jogos" className="mobile-item-nav-bar">
+            <NavLink to="/matches" title="Jogos" className="mobile-item-nav-bar">
                 <FaFutbol className='nav-icon' />
                 <div>Jogos</div>
             </NavLink>

@@ -2,6 +2,7 @@ import './style.css';
 import golden from '../../assets/images/gold.gif';
 import silver from '../../assets/images/silver.gif';
 import bronze from '../../assets/images/bronze.gif';
+import { HeaderTitle } from '../../components/HeaderTitle';
 
 export function Rank() {
     const data = [
@@ -22,9 +23,7 @@ export function Rank() {
     return (
         <div className='rank'>
 
-            <div className='header-title-rank'>
-                <h1>Ranking</h1>
-            </div>
+            <HeaderTitle title="Ranking" />
 
             <div className='content-table'>
                 <table>
