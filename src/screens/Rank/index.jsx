@@ -22,6 +22,10 @@ export function Rank() {
     return (
         <div className='rank'>
 
+            <div className='header-title-rank'>
+                <h1>Ranking</h1>
+            </div>
+
             <div className='content-table'>
                 <table>
                     <tr className='table-header'>
