@@ -1,7 +1,7 @@
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
-import { days } from "../../data/days";
+import { days } from "../../../../data/days";
 import './style.css';
 
 export const DaysList = ({daySelected, setDaySelected }) => {

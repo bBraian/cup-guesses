@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 import { matches } from '../../data/matches';
 
-import { DaysList } from "../../components/DaysList";
-import { DayInfo } from "../../components/DayInfo";
+import { DaysList } from "./components/DaysList";
+import { DayInfo } from "./components/DayInfo";
 import { BetCardMatch } from "../../components/BetCardMatch";
 
 import './style.css';

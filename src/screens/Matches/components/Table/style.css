@@ -1,0 +1,52 @@
+.content-table {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:last-child { 
+    border-bottom: 0;
+}
+tr {
+    height: 28px;
+    border-collapse: collapse !important;
+    border-bottom: 1px solid black;
+}
+
+.team {
+    width: 40%;
+}
+
+
+.data-classification {
+    display: grid;
+    padding: 0 10px;
+    grid-template-columns: 25% 75%;
+    height: 27px;
+    align-items: center;
+}
+
+.data-points {
+    font-weight: bold;
+}
+
+.classification-stats {
+    text-align: center;
+    width: 10%;
+}
+
+.table-header {
+    background-color: var(--rose-500);
+}
+
+.data-line {
+    background-position: top;
+}
